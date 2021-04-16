@@ -1,0 +1,137 @@
+/*** editable ***/
+
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #555555;
+}
+
+/* general content areas */
+
+.mz_editable {
+    font-family: Georgia, serif;
+    color: #555555;;
+}
+
+/* hyperlinks */
+
+a,
+.mz_editable a {
+    color: #111111;
+    text-decoration: underline
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover,
+.mz_editable a:hover {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+/* bullet list in editable text */
+
+.mz_editable ul li {
+    list-style-type: square;
+}
+
+/* headings in editable text */
+
+.mz_editable h1,
+.mz_editable h1.moze-megatitle,
+.mz_editable h1 a {
+    font-family: Georgia, serif;
+    font-size: 2.44rem;
+    color: #111111;
+    font-weight: normal;
+    text-decoration: none
+}
+
+.moze-megatitle {
+    font-size: 2.81rem !important;  
+}
+
+.mz_editable h2,
+.sidebox h2 {
+    font-family: Georgia, serif;
+    font-size: 1.81rem;
+    color: #111111;
+    font-weight: normal;
+    border-bottom: 1px solid #CCCCCC;
+
+}
+
+.mz_editable h3 {
+    font-family: Georgia, serif;
+    font-size: 1.44rem;
+    color: #666666;
+    font-weight: normal;
+}
+
+/* webforms */
+
+.moze-form label {
+    color: #111111;
+}
+
+.moze-form input,
+.moze-form select,
+.moze-form textarea {
+    font-family: Georgia, serif;
+    border: 1px solid #CFCFCF;
+    box-shadow: inset 1px 1px 3px -1px rgba(0, 0, 0, 0.2);
+}
+
+.moze-form .moze-formbutton {
+    font-family: Georgia, serif;
+    color: #FFFFFF;
+    background-color: #999999;
+}
+
+.moze-button,
+.moze-button-large {
+    background-color: #949494;
+}
+
+.moze-button:hover,
+.moze-button-large:hover,
+.moze-form .moze-formbutton:hover {
+    background-color: #777777;
+}
+
+.moze-button-large.btn-white,
+.moze-button.btn-alt,
+.moze-button-large.btn-alt {
+    color: #949494;
+}
+
+.moze-button-large.btn-white:hover,
+.moze-button.btn-alt:hover,
+.moze-button-large.btn-alt:hover {
+    color: #777777;
+}
+
+.moze-button-large.btn-alt-light {
+    border-color: #949494;
+}
+
+.moze-button-large.btn-alt-light:hover {
+    border-color: #777777;
+}
+
+.moze-button-large, .moze-form .moze-formbutton  {
+    font-size: 17px;
+}
+
+/* list of recent blog posts */
+
+.mz_recentposts a {
+    color: #1B6CF2;
+}
+
+.mz_recentposts a:hover {
+    color: #111111;
+    text-decoration: underline
+}

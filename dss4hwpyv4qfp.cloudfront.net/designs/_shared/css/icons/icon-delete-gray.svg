@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="0 0 102 102"
+   data-name="Layer 1"
+   id="Layer_1">
+  <path
+     id="path4"
+     d="M51,46.76,6.12,1.88A3,3,0,0,0,1.88,6.12L46.76,51,1.88,95.88a3,3,0,0,0,4.24,4.24L51,55.24l44.88,44.88a3,3,0,0,0,4.24-4.24L55.24,51,100.12,6.12a3,3,0,0,0-4.24-4.24Z"
+     style="fill:#666666;stroke:#666666;stroke-opacity:1;opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+</svg>
