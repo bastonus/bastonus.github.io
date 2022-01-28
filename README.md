@@ -5,4 +5,6 @@ Dans le **Bastonus**, les joueurs vont tenter de créer leur royaume en achetant
 
 ### [Plus d'informations sur le site.](https://bastonus.github.io/ "Le Bastonus")
 
+![Le Bastonus](https://github.com/bastonus/bastonus.github.io/blob/main/wp-content/uploads/2022/01/Medieval-Landscape.jpg?raw=true)
+
 >&copy; Bastonus 2022
