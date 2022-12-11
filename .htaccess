@@ -1,6 +1,11 @@
 RedirectPermanent / http://bastonus.cf/
 
 RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bastonus.github.io [NC,OR]
+RewriteCond %{HTTP_HOST} ^bastonus.tk [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.bastonus.tk [NC]
+RewriteRule ^(.*)$ https://batsonus.cf/$1 [L,R=301,NC] 
+
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{REQUEST_URI} ^(.*/)index\.html$ [NC]
 RewriteRule . http://www.%{HTTP_HOST}%1 [R=301,NE,L]
